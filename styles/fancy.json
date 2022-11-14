@@ -1,0 +1,110 @@
+[
+    {
+      "selector": "core",
+      "style": {
+        "selection-box-color": "#AAD8FF",
+        "selection-box-border-color": "#8BB0D0",
+        "selection-box-opacity": "0.5"
+      }
+    },
+    {
+      "selector": "node",
+      "style": {
+        "font-size": "8px",
+        "label": "data(name)",
+        "text-valign": "center",
+        "text-halign": "center",
+        "background-color": "#555",
+        "text-outline-color": "#555",
+        "text-outline-width": "2px",
+        "color": "#fff",
+        "overlay-padding": "6px",
+        "z-index": "10"
+      }
+    },
+    {
+      "selector": "node:parent",
+      "style": {
+        "background-color": "#afeeee",
+        "opacity": ".5"
+      }
+    },
+    {
+      "selector": "node:selected",
+      "style": {
+        "font-size": "8px",
+        "border-width": "6px",
+        "border-color": "#AAD8FF",
+        "border-opacity": "0.5",
+        "background-color": "#77828C",
+        "text-outline-color": "#77828C"
+      }
+    },
+    {
+      "selector": "edge",
+      "style": {
+        "curve-style": "straight-triangle",
+        "opacity": "0.8",
+        "line-color": "#bbb",
+        "width": "1px",
+        "overlay-padding": "3px",
+        "target-arrow-color": "#bbb",
+        "target-arrow-shape": "triangle"
+      }
+    },
+    {
+      "selector": "node.unhighlighted",
+      "style": {
+        "opacity": "0.2"
+      }
+    },
+    {
+      "selector": "edge.unhighlighted",
+      "style": {
+        "opacity": "0.05"
+      }
+    },
+    {
+      "selector": ".highlighted",
+      "style": {
+        "z-index": "999999",
+        "transition-duration": "0.5s"
+      }
+    },
+    {
+      "selector": "node.highlighted",
+      "style": {
+        "border-width": "8px",
+        "border-color": "#AAD8FF",
+        "border-opacity": "0.85",
+        "background-color": "#394855",
+        "text-outline-color": "#394855",
+        "transition-property": "border-width, border-color, border-opacity, background-color, text-outline-color"
+      }
+    },
+    {
+      "selector": "node.start",
+      "style": {
+        "border-color": "#8FDC97"
+      }
+    },
+    {
+      "selector": "node.end",
+      "style": {
+        "border-color": "#9F4A54"
+      }
+    },
+    {
+      "selector": "edge.filtered",
+      "style": {
+        "opacity": "0"
+      }
+    },
+    {
+      "selector": "edge.highlighted",
+      "style": {
+        "line-color": "#AAD8FF",
+        "width": "10px"
+      }
+    }
+  ]
